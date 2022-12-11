@@ -42,7 +42,7 @@ The right way to use OpenIdConnect on Blazor.
         // Registering required services
         builder.Services.AddBlorcCore();
         builder.Services.AddAuthorizationCore();
-        builder.Services.AddBlocOpenIdConnect(
+        builder.Services.AddBlorcOpenIdConnect(
                         options =>
                         {
                                 builder.Configuration.Bind("IdentityServer", options);
